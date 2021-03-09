@@ -23,8 +23,7 @@ localhost:3000/primos/[numero a ingresar]
 
 ### Ejecutando pruebas ⚙️
 
-_Caso 1: numeros naturales
-Se ingresan numeros naturales a la url_
+### Caso 1: numeros naturales
 
 _Ingreso numero 2_
 
@@ -56,7 +55,7 @@ _Respuesta:_
 [13,11,7,5,3,2,1]
 ```
 
-_Caso 2: numeros decimales_
+### Caso 2: numeros decimales
 
 _Ingreso numero 3.4_
 
@@ -89,7 +88,7 @@ _Respuesta:_
 [23,19,17,13,11,7,5,3,2,1]
 ```
 
-_Caso 3: Letras_
+### Caso 3: Letras
 
 _Ingreso Letra A_
 
@@ -111,6 +110,8 @@ _Respuesta:_
 ```
 [Vacio]
 ```
+
+### Caso 4
 
 _Ingreso combinación de letras y numeros_
 
@@ -135,7 +136,7 @@ _Respuesta:_
 [Vacio]
 ```
 
-_Caso 4_
+### Caso 5
 
 _Ingreso URL sin argumento_
 
