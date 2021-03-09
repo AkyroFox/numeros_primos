@@ -15,6 +15,7 @@ _Dentro de la consola de comandos de windows escribir el siguiente comando_
 c:\directorio-proyecto>node server.js
 ```
 _En este punto queda corriendo un servicio en segundo plano en el puerto 3000 que recibe numeros en url_
+
 _La manera de ingresar estos numeros en la url es la siguiente:_
 
 ```
