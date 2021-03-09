@@ -24,7 +24,7 @@ curl localhost:3000/primos/[numero a ingresar]
 
 ### Caso 1: numeros naturales
 
-_Ingreso numero 2_
+_1.1-Ingreso numero 2_
 
 ```
 curl localhost:3000/primos/2
@@ -35,7 +35,7 @@ _Respuesta:_
 [2,1]
 ```
 
-_Ingreso numero 7_
+_1.2-Ingreso numero 7_
 
 ```
 curl localhost:3000/primos/7
@@ -47,7 +47,7 @@ _Respuesta:_
 [7,5,3,2,1]
 ```
 
-_Ingreso numero 15_
+_1.3-Ingreso numero 15_
 
 ```
 curl localhost:3000/primos/15
@@ -59,9 +59,21 @@ _Respuesta:_
 [13,11,7,5,3,2,1]
 ```
 
+_1.4-Ingreso numero 0_
+
+```
+curl localhost:3000/primos/0
+```
+
+_Respuesta:_
+
+```
+[Vacio]
+```
+
 ### Caso 2: numeros decimales
 
-_Ingreso numero 3.4_
+_2.1-Ingreso numero 3.4_
 
 ```
 curl localhost:3000/primos/3.4
@@ -73,7 +85,7 @@ _Respuesta:_
 [3,2,1]
 ```
 
-_Ingreso numero 6.9_
+_2.2-Ingreso numero 6.9_
 
 
 ```
@@ -86,7 +98,7 @@ _Respuesta:_
 [5,3,2,1]
 ```
 
-_Ingreso numero 26.7_
+_2.3-Ingreso numero 26.7_
 
 ```
 curl localhost:3000/primos/26.7
@@ -100,7 +112,7 @@ _Respuesta:_
 
 ### Caso 3: Letras
 
-_Ingreso Letra A_
+_3.1-Ingreso Letra A_
 
 ```
 curl localhost:3000/primos/A
@@ -112,7 +124,7 @@ _Respuesta:_
 [Vacio]
 ```
 
-_Ingreso Letras ASDF_
+_3.2-Ingreso Letras ASDF_
 
 ```
 curl localhost:3000/primos/ASDF
@@ -124,11 +136,9 @@ _Respuesta:_
 [Vacio]
 ```
 
-### Caso 4
+### Caso 4 combinación de letras y numeros
 
-_Ingreso combinación de letras y numeros_
-
-_Ingreso alfanumerico 2B_
+_4.1-Ingreso alfanumerico 2B_
 
 ```
 curl localhost:3000/primos/2B
@@ -140,7 +150,7 @@ _Respuesta:_
 [Vacio]
 ```
 
-_Ingreso alfanumerico 34C_
+_4.2-Ingreso alfanumerico 34C_
 
 ```
 curl localhost:3000/primos/34C
@@ -154,7 +164,7 @@ _Respuesta:_
 
 ### Caso 5
 
-_Ingreso URL sin argumento_
+_5.1-Ingreso URL sin argumento_
 
 ```
 curl localhost:3000/primos/
